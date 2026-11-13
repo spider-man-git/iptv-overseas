@@ -7,6 +7,7 @@ from urllib.parse import urlsplit, urljoin
 
 TIMEOUT = 12
 class UnsafeURL(ValueError): pass
+class Untestable(ValueError): pass
 
 def public_address(value):
     ip = ipaddress.ip_address(value)
@@ -57,6 +58,8 @@ def fetch(url, limit=2*1024*1024):
                 if not destination: raise ValueError('redirect without location')
                 url = urljoin(url, destination)
                 continue
+            if response.status in (401,403,451):
+                raise Untestable('HTTP access restriction ' + str(response.status))
             if response.status != 200: raise ValueError('HTTP ' + str(response.status))
             chunks, size = [], 0
             while True:
@@ -100,6 +103,24 @@ def media_playlist(url):
         return lines, base, elapsed
     raise ValueError('nested playlists limit')
 
+def decode_frame(data):
+    """Decode one frame from already-fetched bytes; never open a URL or file."""
+    try:
+        decoded = subprocess.run([
+            'ffmpeg', '-nostdin', '-v', 'error', '-max_alloc', '67108864',
+            '-protocol_whitelist', 'pipe', '-format_whitelist', 'mpegts,mov',
+            '-threads', '1', '-i', 'pipe:0', '-map', '0:v:0', '-an', '-sn', '-dn',
+            '-frames:v', '1', '-vf', 'scale=1:1', '-threads', '1',
+            '-pix_fmt', 'rgb24', '-f', 'rawvideo', 'pipe:1'
+        ], input=data, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, timeout=15)
+    except (subprocess.TimeoutExpired, FileNotFoundError):
+        raise Untestable('offline frame decode unavailable or timed out')
+    if decoded.returncode != 0 or len(decoded.stdout) != 3:
+        # A short sample may lack a keyframe or use an unsupported decoder.
+        # This is not proof that the complete stream is unplayable.
+        raise Untestable('offline sample did not yield a decoded video frame')
+    return 1
+
 def sample(entry):
     started=time.monotonic()
     result={'id':entry['id'],'name':entry['name'],'url_hash':hashlib.sha256(entry['url'].encode()).hexdigest()}
@@ -107,8 +128,8 @@ def sample(entry):
         lines, base, latency=media_playlist(entry['url'])
         if '#EXT-X-ENDLIST' in lines: raise ValueError('VOD/endlist, not a live playlist')
         if any(x.startswith('#EXT-X-KEY:') and 'METHOD=NONE' not in x for x in lines):
-            raise ValueError('encrypted media is not tested')
-        if any(x.startswith('#EXT-X-BYTERANGE:') for x in lines): raise ValueError('byte-range media unsupported')
+            raise Untestable('encrypted media is not tested')
+        if any(x.startswith('#EXT-X-BYTERANGE:') for x in lines): raise Untestable('byte-range media unsupported')
         segments=[]; duration=None; init=b''
         for line in lines:
             if line.startswith('#EXT-X-MAP:'):
@@ -130,11 +151,14 @@ def sample(entry):
         probe=subprocess.run(['ffprobe','-v','error','-protocol_whitelist','pipe','-show_entries','stream=codec_type,width,height','-of','json','-i','pipe:0'],input=first,capture_output=True,timeout=15)
         streams=json.loads(probe.stdout or b'{}').get('streams',[])
         video=[s for s in streams if s.get('codec_type')=='video']
-        if not video: raise ValueError('no decodable video track in sample')
+        if probe.returncode != 0 or not video: raise Untestable('offline sample video track not established')
+        decoded_frames=decode_frame(first)
         ratios=[s['download_s']/s['duration_s'] for s in samples]
-        result.update(status='pass',playlist_response_ms=round(latency*1000),samples=samples,
+        result.update(status='pass',decoded_frames=decoded_frames,playlist_response_ms=round(latency*1000),samples=samples,
                       max_download_ratio=round(max(ratios),3),width=video[0].get('width'),height=video[0].get('height'),
                       quality='slow' if max(ratios)>=1 else 'sample_ok')
+    except Untestable as error:
+        result.update(status='untestable',reason=str(error))
     except UnsafeURL:
         result.update(status='unsafe',reason='non-public or unsupported destination')
     except Exception as error:
@@ -169,6 +193,15 @@ def select(entries, results, prior):
             chosen=min(good,key=lambda e:lookup[hashlib.sha256(e['url'].encode()).hexdigest()]['max_download_ratio'])
             state[channel]={'failures':0,'last_good_url':chosen['url']}; selected.append(chosen)
         else:
+            unknown=[e for e in candidates if lookup[hashlib.sha256(e['url'].encode()).hexdigest()]['status']=='untestable']
+            if unknown:
+                # Unknown proves neither failure nor playback success. Break the
+                # consecutive-failure streak; never label this source last-good.
+                chosen=next((e for e in unknown if e['url']==old.get('last_good_url')),unknown[0])
+                state[channel]={'failures':0,'last_good_url':old.get('last_good_url')}
+                selected.append(chosen)
+                statuses.append(channel + ': retained untested; playback not established')
+                continue
             failures=old.get('failures',0)+1
             previous=next((e for e in candidates if e['url']==old.get('last_good_url')),None)
             fallback=previous or candidates[0]
@@ -191,19 +224,19 @@ def main():
     broad_outage=passes < max(1,len(entries)*0.3)
     if broad_outage:
         notes=['Broad outage: previous selection and failure counts retained; only unsafe destinations removed.']
-    report={'checked_at_utc':timestamp,'runner':'cloud runner, not the viewer home network','scope':'3 HLS segments and one offline video probe; not long-term stability or channel-identity verification','broad_outage':broad_outage,'passed':passes,'total_urls':len(entries),'notes':notes,'channels':results}
+    report={'checked_at_utc':timestamp,'runner':'cloud runner, not the viewer home network','scope':'3 HLS segments, offline video metadata and one decoded frame; not long-term stability or channel-identity verification','broad_outage':broad_outage,'passed':passes,'total_urls':len(entries),'notes':notes,'channels':results}
     (root/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     if broad_outage:
         # Still remove destinations proven unsafe even during a widespread outage.
         unsafe={r['url_hash'] for r in results if r['status']=='unsafe'}
-        livepath=root/'live.m3u'
+        livepath=root/'overseas.m3u'
         if unsafe and livepath.exists():
             previous=parse_entries(livepath.read_text())
             safe=[e for e in previous if hashlib.sha256(e['url'].encode()).hexdigest() not in unsafe]
             livepath.write_text('#EXTM3U\n# Broad outage: previous selection retained except unsafe destinations.\n'+'\n'.join(e['info']+'\n'+e['url'] for e in safe)+'\n')
         print('Broad outage: previous selection and failure counts retained; unsafe destinations excluded.'); return
     header='#EXTM3U\n# Updated '+timestamp+'\n# Cloud sample checks; not guaranteed home-network performance or live identity.\n'
-    (root/'live.m3u').write_text(header+'\n'.join(e['info']+'\n'+e['url'] for e in chosen)+'\n')
+    (root/'overseas.m3u').write_text(header+'\n'.join(e['info']+'\n'+e['url'] for e in chosen)+'\n')
     oldpath.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print(f'Checked {len(entries)} URLs; passed {passes}; published {len(chosen)} channels.')
 
