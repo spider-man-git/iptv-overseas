@@ -4,19 +4,19 @@
     "last_good_url": "https://petclub-samsungaus.amagi.tv/playlist.m3u8"
   },
   "TaiwanIndigenousTV.tw": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": null
   },
   "凤凰中文": {
-    "failures": 0,
+    "failures": 1,
     "last_good_url": "http://173.208.234.146/live/fhzw.m3u8"
   },
   "凤凰资讯": {
-    "failures": 0,
+    "failures": 1,
     "last_good_url": "http://173.208.234.146/live/fhzx.m3u8"
   },
   "凤凰香港": {
-    "failures": 0,
+    "failures": 1,
     "last_good_url": "http://173.208.234.146/live/fhxg.m3u8"
   },
   "TVBS亚洲": {
@@ -60,11 +60,11 @@
     "last_good_url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8"
   },
   "BloombergTV.us": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": null
   },
   "BloombergOriginals.us": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": null
   },
   "CNBCArabiya.ae": {
