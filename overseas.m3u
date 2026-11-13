@@ -1,0 +1,101 @@
+#EXTM3U
+# Updated 2026-11-13T03:32:36.483550+00:00
+# Cloud sample checks; not guaranteed home-network performance or live identity.
+#EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV [1080p]" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-chno="46" group-title="04 港台频道",Pet Club TV [1080p]
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-name="Taiwan Indigenous TV [720p]" tvg-logo="https://i.imgur.com/QqIdVqz.png" tvg-chno="47" group-title="04 港台频道",Taiwan Indigenous TV [720p]
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" tvg-chno="48" group-title="04 港台频道",凤凰中文 [720p]
+http://173.208.234.146/live/fhzw.m3u8
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰资讯.png" tvg-chno="49" group-title="04 港台频道",凤凰资讯 [720p]
+http://173.208.234.146/live/fhzx.m3u8
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" tvg-chno="50" group-title="04 港台频道",凤凰香港 [720p]
+http://173.208.234.146/live/fhxg.m3u8
+#EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲 [1080p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS亚洲.png" tvg-chno="51" group-title="04 港台频道",TVBS亚洲 [1080p]
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="民视新闻" tvg-name="民视新闻 [1080p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/民视新闻.png" tvg-chno="52" group-title="04 港台频道",民视新闻 [1080p]
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News [720p]" tvg-logo="https://i.imgur.com/BrW7gk8.png" tvg-chno="53" group-title="05 国际新闻",ABC News [720p]
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="AfricanewsEnglish.fr" tvg-name="Africanews English [720p]" tvg-logo="https://i.imgur.com/5UxU4zc.png" tvg-chno="54" group-title="05 国际新闻",Africanews English [720p]
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-name="Al Jazeera English [1080p]" tvg-logo="https://i.imgur.com/7bRVpnu.png" tvg-chno="55" group-title="05 国际新闻",Al Jazeera English [1080p]
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="AlMashhad.ae" tvg-name="Al Mashhad [1080p]" tvg-logo="https://i.imgur.com/6G6fxs5.png" tvg-chno="56" group-title="05 国际新闻",Al Mashhad [1080p]
+https://amg30483-amg30483c23-amgplt0794.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg30483-amg30483c23-amgplt0794/playlist.m3u8?ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.appversion=[APP_VERSION]&ads.bundleid=[APP_BUNDLE]&ads.coppa=0&ads.country=[COUNTRY]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.devicetype=[DEVICE_TYPE]&ads.donotsell=[DNS]&ads.fck=[FCK]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.givn=[NONCE]&ads.ic=[IC]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.lat=[LMT]&ads.network_name=[networkname]&ads.targetad=[TARGETAD_ALLOWED]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]
+#EXTINF:-1 tvg-id="ArirangUN.kr" tvg-name="Arirang UN [1080p]" tvg-logo="https://i.imgur.com/Jdy3WNm.png" tvg-chno="57" group-title="05 国际新闻",Arirang UN [1080p]
+https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBaltimore.us" tvg-name="CBS News Baltimore [720p]" tvg-logo="https://i.imgur.com/jy3UfCe.png" tvg-chno="58" group-title="05 国际新闻",CBS News Baltimore [720p]
+https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
+#EXTINF:-1 tvg-id="CityNewsToronto.ca" tvg-name="CityNews Toronto [720p]" tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png" tvg-chno="59" group-title="05 国际新闻",CityNews Toronto [720p]
+https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+#EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-name="CNN en Espanol [1080p]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" tvg-chno="60" group-title="05 国际新闻",CNN en Espanol [1080p]
+https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="Bloomberg TV Asia [720p]" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-chno="61" group-title="06 国际财经",Bloomberg TV Asia [720p]
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us" tvg-name="Bloomberg Originals [1080p]" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" tvg-chno="62" group-title="06 国际财经",Bloomberg Originals [1080p]
+https://bloomberg.com/media-manifest/streams/qt.m3u8
+#EXTINF:-1 tvg-id="CNBCArabiya.ae" tvg-name="CNBC Arabiya [1080p]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/960px-CNBC_Arabia_2025.svg.png" tvg-chno="63" group-title="06 国际财经",CNBC Arabiya [1080p]
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+#EXTINF:-1 tvg-id="CNBCTV18.in" tvg-name="CNBC TV18 [1080p]" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18.png" tvg-chno="64" group-title="06 国际财经",CNBC TV18 [1080p]
+https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
+#EXTINF:-1 tvg-id="CNAOriginals.sg" tvg-name="CNA Originals [1080p]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png" tvg-chno="65" group-title="07 纪录科教",CNA Originals [1080p]
+https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk" tvg-name="BBC Earth US [1080p]" tvg-logo="https://i.imgur.com/nGSsUd4.png" tvg-chno="66" group-title="07 纪录科教",BBC Earth US [1080p]
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="CuriosityNOW.de" tvg-name="Curiosity NOW EN [1080p]" tvg-logo="https://i.imgur.com/gJ9eMaG.png" tvg-chno="67" group-title="07 纪录科教",Curiosity NOW EN [1080p]
+https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HistoryHit.uk" tvg-name="History Hit [1080p]" tvg-logo="https://i.imgur.com/ulHoqlP.png" tvg-chno="68" group-title="07 纪录科教",History Hit [1080p]
+https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NatureTime.ca" tvg-name="NatureTime [1080p]" tvg-logo="https://i.imgur.com/72JmyjM.png" tvg-chno="69" group-title="07 纪录科教",NatureTime [1080p]
+https://bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ACCDigitalNetwork.us" tvg-name="ACC Digital Network [1080p]" tvg-logo="https://i.imgur.com/V6Kaqha.png" tvg-chno="70" group-title="08 体育户外",ACC Digital Network [1080p]
+https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA [1080p]" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" tvg-chno="71" group-title="08 体育户外",beIN SPORTS XTRA [1080p]
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EurovisionSport.uk" tvg-name="Eurovision Sport [1080p]" tvg-logo="https://images.ctfassets.net/2b1dkanupt14/1A1Z8Gcn2NkbJRzTjxuj6h/2c14436cdc5b78e746a256e9f0c11a70/eurovision-icon.png" tvg-chno="72" group-title="08 体育户外",Eurovision Sport [1080p]
+https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8
+#EXTINF:-1 tvg-id="FloHockey.us" tvg-name="FloHockey [1080p]" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" tvg-chno="73" group-title="08 体育户外",FloHockey [1080p]
+https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FloRacing.us" tvg-name="FloRacing [1080p]" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/floracing-white.png" tvg-chno="74" group-title="08 体育户外",FloRacing [1080p]
+https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCDrama.uk" tvg-name="BBC Drama [1080p]" tvg-logo="https://i.imgur.com/HctHhLL.png" tvg-chno="75" group-title="09 影视娱乐",BBC Drama [1080p]
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BounceXL.us" tvg-name="Bounce XL [1080p]" tvg-logo="https://i.imgur.com/GzxgSkc.png" tvg-chno="76" group-title="09 影视娱乐",Bounce XL [1080p]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="Circle.us" tvg-name="Circle [1080p]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png" tvg-chno="77" group-title="09 影视娱乐",Circle [1080p]
+https://circle-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FearFactor.us" tvg-name="Fear Factor [1080p]" tvg-logo="https://i.imgur.com/CIYnLWz.png" tvg-chno="78" group-title="09 影视娱乐",Fear Factor [1080p]
+https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="GREATromance.uk" tvg-name="GREAT! romance [1080p]" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" tvg-chno="79" group-title="09 影视娱乐",GREAT! romance [1080p]
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="GritXtra.us" tvg-name="Grit Xtra [1080p]" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dbbb9bca-0b08-43b5-a0e7-715df9a6dbfd/_ChannelLogo_1500x1000.png" tvg-chno="80" group-title="09 影视娱乐",Grit Xtra [1080p]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="HellsKitchen.us" tvg-name="Hell's Kitchen [1080p]" tvg-logo="https://i.imgur.com/P9eT0O9.png" tvg-chno="81" group-title="09 影视娱乐",Hell's Kitchen [1080p]
+https://amg00654-itv-amg00654c1-samsung-au-1072.playouts.now.amagi.tv/itv-hellskitchen-samsung/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanAnimated.uk" tvg-name="Mr Bean Animated [1080p]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" tvg-chno="82" group-title="10 少儿动画",Mr Bean Animated [1080p]
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TinyPop.uk" tvg-name="Tiny Pop [1080p]" tvg-logo="https://i.imgur.com/zCTf71x.png" tvg-chno="83" group-title="10 少儿动画",Tiny Pop [1080p]
+https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="ToonGoggles.us" tvg-name="ToonGoggles [720p]" tvg-logo="https://i.imgur.com/JMnxswq.png" tvg-chno="84" group-title="10 少儿动画",ToonGoggles [720p]
+https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="WOWKidz.in" tvg-name="WOW Kidz [720p]" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/mjvezt.png" tvg-chno="85" group-title="10 少儿动画",WOW Kidz [720p]
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="BestofDanceTV.ee" tvg-name="Best of Dance TV [1080p]" tvg-logo="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dt-logo-ARVwXaV7R0NW1kmXYBxN0OA78sD706.png" tvg-chno="86" group-title="11 音乐频道",Best of Dance TV [1080p]
+https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
+#EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-name="California Music Channel [1080p]" tvg-logo="https://i.imgur.com/FyNot5W.png" tvg-chno="87" group-title="11 音乐频道",California Music Channel [1080p]
+https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Now70s.uk" tvg-name="Now 70s [720p]" tvg-logo="https://i.imgur.com/qiCCX5X.png" tvg-chno="88" group-title="11 音乐频道",Now 70s [720p]
+https://lightningnow70-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Now80s.uk" tvg-name="Now 80s [1080p]" tvg-logo="https://i.imgur.com/YyPnMeB.png" tvg-chno="89" group-title="11 音乐频道",Now 80s [1080p]
+https://lightningnow80-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="bonappetit.us" tvg-name="bon appetit [1080p]" tvg-logo="https://i.imgur.com/YhFFxlE.png" tvg-chno="90" group-title="12 美食生活",bon appetit [1080p]
+https://bonappetit-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Tastemade.us" tvg-name="Tastemade [1080p]" tvg-logo="https://i.imgur.com/xP7Ehn8.png" tvg-chno="91" group-title="12 美食生活",Tastemade [1080p]
+https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8
+#EXTINF:-1 tvg-id="TheDesignNetwork.us" tvg-name="The Design Network [1080p]" tvg-logo="https://i.imgur.com/J5YJ3r3.png" tvg-chno="92" group-title="12 美食生活",The Design Network [1080p]
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NDTVGoodTimes.in" tvg-name="NDTV Good Times [1080p]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_TIMES/images/LOGO_HD/image.png" tvg-chno="93" group-title="12 美食生活",NDTV Good Times [1080p]
+https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="AntiquesRoadTrip.us" tvg-name="Antiques Road Trip [1080p]" tvg-logo="https://i.imgur.com/kkm7VqV.png" tvg-chno="94" group-title="12 美食生活",Antiques Road Trip [1080p]
+https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8
