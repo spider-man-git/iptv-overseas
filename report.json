@@ -1,1 +1,1373 @@
-{"status":"not_run","note":"Initial list copied from previously sampled playlist; daily checker has not yet run."}
+{
+  "checked_at_utc": "2026-11-13T03:32:36.483550+00:00",
+  "runner": "cloud runner, not the viewer home network",
+  "scope": "3 HLS segments and one offline video probe; not long-term stability or channel-identity verification",
+  "broad_outage": false,
+  "passed": 46,
+  "total_urls": 49,
+  "notes": [
+    "TaiwanIndigenousTV.tw: retained after temporary failure",
+    "BloombergTV.us: retained after temporary failure",
+    "BloombergOriginals.us: retained after temporary failure"
+  ],
+  "channels": [
+    {
+      "id": "PetClubTV.hk",
+      "name": "Pet Club TV [1080p]",
+      "url_hash": "f0c8e27a669b084ae20898b87048c76bac74a7af5aa442fc53b0b0109ad5f367",
+      "status": "pass",
+      "playlist_response_ms": 702,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 2.026,
+          "bytes": 3387948
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.003,
+          "bytes": 3099556
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.011,
+          "bytes": 3106888
+        }
+      ],
+      "max_download_ratio": 0.338,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 7.71
+    },
+    {
+      "id": "TaiwanIndigenousTV.tw",
+      "name": "Taiwan Indigenous TV [720p]",
+      "url_hash": "ff679de576c04dae743cb208a769b2d0245befb0dd0dea619fb2d29fdf676fe1",
+      "status": "fail",
+      "reason": "ValueError: encrypted media is not tested",
+      "elapsed_s": 2.31
+    },
+    {
+      "id": "凤凰中文",
+      "name": "凤凰中文 [720p]",
+      "url_hash": "30ac0139bdbc2061dbb0cbec1a12c5bcbb496071afd95317535c4d7ab3fe07b6",
+      "status": "pass",
+      "playlist_response_ms": 1190,
+      "samples": [
+        {
+          "duration_s": 10.0,
+          "download_s": 0.368,
+          "bytes": 776064
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.398,
+          "bytes": 1531636
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.368,
+          "bytes": 1787504
+        }
+      ],
+      "max_download_ratio": 0.04,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 2.38
+    },
+    {
+      "id": "凤凰资讯",
+      "name": "凤凰资讯 [720p]",
+      "url_hash": "97ce0f65a069cfc440428e6ec1e9256216f443a6b67e138e280484f1d8f3c292",
+      "status": "pass",
+      "playlist_response_ms": 153,
+      "samples": [
+        {
+          "duration_s": 10.0,
+          "download_s": 0.847,
+          "bytes": 1357360
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.554,
+          "bytes": 1326152
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.405,
+          "bytes": 1370332
+        }
+      ],
+      "max_download_ratio": 0.085,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 2.3
+    },
+    {
+      "id": "凤凰香港",
+      "name": "凤凰香港 [720p]",
+      "url_hash": "71442dc4821b5f44eb4fdd7462c815bc15c634d19630d259b72916d22bd339ae",
+      "status": "pass",
+      "playlist_response_ms": 145,
+      "samples": [
+        {
+          "duration_s": 10.0,
+          "download_s": 0.315,
+          "bytes": 1295696
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.321,
+          "bytes": 1401728
+        },
+        {
+          "duration_s": 10.0,
+          "download_s": 0.307,
+          "bytes": 1241740
+        }
+      ],
+      "max_download_ratio": 0.032,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 1.14
+    },
+    {
+      "id": "TVBS亚洲",
+      "name": "TVBS亚洲 [1080p]",
+      "url_hash": "187bd475eb50771056b345ad9e5b313f8f839e5dbfd296a60194eee49607c581",
+      "status": "pass",
+      "playlist_response_ms": 124,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 2.48,
+          "bytes": 2030400
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 2.643,
+          "bytes": 2034724
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 2.186,
+          "bytes": 2051832
+        }
+      ],
+      "max_download_ratio": 0.44,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 7.63
+    },
+    {
+      "id": "民视新闻",
+      "name": "民视新闻 [1080p]",
+      "url_hash": "77268d879fcbf09a56354aa86e4e36619d7e5812f7267041d307955eb824301b",
+      "status": "pass",
+      "playlist_response_ms": 125,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 2.192,
+          "bytes": 2064052
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 3.238,
+          "bytes": 1967984
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 4.489,
+          "bytes": 2130604
+        }
+      ],
+      "max_download_ratio": 0.747,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 10.23
+    },
+    {
+      "id": "ABCNews.au",
+      "name": "ABC News [720p]",
+      "url_hash": "6250248a9386318e205bd783d428838e45f85904c157041c13a6fc4e0682a40b",
+      "status": "pass",
+      "playlist_response_ms": 43,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.066,
+          "bytes": 559676
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.148,
+          "bytes": 1037008
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.082,
+          "bytes": 1498736
+        }
+      ],
+      "max_download_ratio": 0.025,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 0.47
+    },
+    {
+      "id": "AfricanewsEnglish.fr",
+      "name": "Africanews English [720p]",
+      "url_hash": "75e3638a2fbaadd0366773914a6bdb03185fe1c850079ee3dc851798ba70e6b0",
+      "status": "pass",
+      "playlist_response_ms": 172,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.709,
+          "bytes": 2578232
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 1.032,
+          "bytes": 2638392
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 1.001,
+          "bytes": 2611320
+        }
+      ],
+      "max_download_ratio": 0.172,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 3.29
+    },
+    {
+      "id": "AlJazeera.qa",
+      "name": "Al Jazeera English [1080p]",
+      "url_hash": "918aa398fd1b9a3374636e0c577116c317293afc4b733d139094349b0cdd799a",
+      "status": "pass",
+      "playlist_response_ms": 360,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.132,
+          "bytes": 3669948
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.152,
+          "bytes": 3544176
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.187,
+          "bytes": 3618060
+        }
+      ],
+      "max_download_ratio": 0.031,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.25
+    },
+    {
+      "id": "AlMashhad.ae",
+      "name": "Al Mashhad [1080p]",
+      "url_hash": "75b9877c1505a314886e9da58036730005b422a5482b717e23b32dfa19da1593",
+      "status": "pass",
+      "playlist_response_ms": 230,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.535,
+          "bytes": 2298488
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.494,
+          "bytes": 2394932
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.477,
+          "bytes": 2331388
+        }
+      ],
+      "max_download_ratio": 0.089,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 2.53
+    },
+    {
+      "id": "ArirangUN.kr",
+      "name": "Arirang UN [1080p]",
+      "url_hash": "432bfa1217ae91e47a4574cf27c3b30ae1817ec1c53b58f168aee260144378dd",
+      "status": "pass",
+      "playlist_response_ms": 672,
+      "samples": [
+        {
+          "duration_s": 2.002,
+          "download_s": 1.849,
+          "bytes": 859348
+        },
+        {
+          "duration_s": 2.002,
+          "download_s": 6.012,
+          "bytes": 922704
+        },
+        {
+          "duration_s": 2.002,
+          "download_s": 0.074,
+          "bytes": 1057500
+        }
+      ],
+      "max_download_ratio": 3.003,
+      "width": 1920,
+      "height": 1080,
+      "quality": "slow",
+      "elapsed_s": 9.51
+    },
+    {
+      "id": "CBSNewsBaltimore.us",
+      "name": "CBS News Baltimore [720p]",
+      "url_hash": "d30ffdc71eeeff3e395f7fbce1a70c17d88d22b85e3c859c3ec0d4c323bf4330",
+      "status": "pass",
+      "playlist_response_ms": 32,
+      "samples": [
+        {
+          "duration_s": 2.0,
+          "download_s": 0.369,
+          "bytes": 698232
+        },
+        {
+          "duration_s": 2.0,
+          "download_s": 0.051,
+          "bytes": 722296
+        },
+        {
+          "duration_s": 2.0,
+          "download_s": 0.05,
+          "bytes": 863672
+        }
+      ],
+      "max_download_ratio": 0.184,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 0.71
+    },
+    {
+      "id": "CityNewsToronto.ca",
+      "name": "CityNews Toronto [720p]",
+      "url_hash": "2fb074d7300ed2b9402b00f5906eb765ff965561081dda69a7d9339da74978a2",
+      "status": "pass",
+      "playlist_response_ms": 60,
+      "samples": [
+        {
+          "duration_s": 5.005,
+          "download_s": 0.125,
+          "bytes": 1948432
+        },
+        {
+          "duration_s": 5.005,
+          "download_s": 0.151,
+          "bytes": 1947492
+        },
+        {
+          "duration_s": 5.005,
+          "download_s": 0.137,
+          "bytes": 1948620
+        }
+      ],
+      "max_download_ratio": 0.03,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 0.63
+    },
+    {
+      "id": "CNNenEspanol.us",
+      "name": "CNN en Espanol [1080p]",
+      "url_hash": "77cba2fa53598b2dc18aa8010089af10c198d1fa15db91aed45ca31a8715a5b9",
+      "status": "pass",
+      "playlist_response_ms": 34,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.075,
+          "bytes": 3245068
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.069,
+          "bytes": 3213860
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.072,
+          "bytes": 3179456
+        }
+      ],
+      "max_download_ratio": 0.012,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.77
+    },
+    {
+      "id": "BloombergTV.us",
+      "name": "Bloomberg TV Asia [720p]",
+      "url_hash": "ce739c369283cd1027c2861790a3dc22f5ce135235805778b144660b393baa27",
+      "status": "fail",
+      "reason": "ValueError: HTTP 403",
+      "elapsed_s": 0.15
+    },
+    {
+      "id": "BloombergOriginals.us",
+      "name": "Bloomberg Originals [1080p]",
+      "url_hash": "905b7cffaec130f2aa4830cb608d72f71237515218b2efe7d79d386224b26ed7",
+      "status": "fail",
+      "reason": "ValueError: HTTP 403",
+      "elapsed_s": 0.13
+    },
+    {
+      "id": "CNBCArabiya.ae",
+      "name": "CNBC Arabiya [1080p]",
+      "url_hash": "543316a4826e8755bed1004f6815728c3acaf472233b54308f515d1ed9c46b40",
+      "status": "pass",
+      "playlist_response_ms": 160,
+      "samples": [
+        {
+          "duration_s": 4.0,
+          "download_s": 0.977,
+          "bytes": 1968360
+        },
+        {
+          "duration_s": 4.0,
+          "download_s": 0.877,
+          "bytes": 1490276
+        },
+        {
+          "duration_s": 4.0,
+          "download_s": 0.965,
+          "bytes": 2389480
+        }
+      ],
+      "max_download_ratio": 0.244,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 3.23
+    },
+    {
+      "id": "CNBCTV18.in",
+      "name": "CNBC TV18 [1080p]",
+      "url_hash": "7174912e8a5058509aa8a9dc80cea2f169ed5f47842e6722ce4b7c79f073f942",
+      "status": "pass",
+      "playlist_response_ms": 321,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 2.831,
+          "bytes": 1702904
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.705,
+          "bytes": 1687864
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.322,
+          "bytes": 1729976
+        }
+      ],
+      "max_download_ratio": 0.472,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 8.98
+    },
+    {
+      "id": "CNAOriginals.sg",
+      "name": "CNA Originals [1080p]",
+      "url_hash": "2c766666d3fa677b5e40cfdec64503cd4336fc8bf384e6d1a550e3d8b66c39f0",
+      "status": "pass",
+      "playlist_response_ms": 270,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.079,
+          "bytes": 3094480
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.18,
+          "bytes": 3654720
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.55,
+          "bytes": 3119672
+        }
+      ],
+      "max_download_ratio": 0.092,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.43
+    },
+    {
+      "id": "BBCEarth.uk",
+      "name": "BBC Earth US [1080p]",
+      "url_hash": "0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534",
+      "status": "pass",
+      "playlist_response_ms": 37,
+      "samples": [
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.071,
+          "bytes": 2967956
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.073,
+          "bytes": 3049736
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.071,
+          "bytes": 2799884
+        }
+      ],
+      "max_download_ratio": 0.012,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.49
+    },
+    {
+      "id": "CuriosityNOW.de",
+      "name": "Curiosity NOW EN [1080p]",
+      "url_hash": "ff18369c6c0bfe0b021cc8dbc8c21ddcca199f72af45a47dfba899fd77f4a642",
+      "status": "pass",
+      "playlist_response_ms": 66,
+      "samples": [
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.072,
+          "bytes": 3253904
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.091,
+          "bytes": 3371592
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.079,
+          "bytes": 3204084
+        }
+      ],
+      "max_download_ratio": 0.015,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.59
+    },
+    {
+      "id": "HistoryHit.uk",
+      "name": "History Hit [1080p]",
+      "url_hash": "288bb2eaa62e287044b8694f717958509975d9236307e9788850226e94319892",
+      "status": "pass",
+      "playlist_response_ms": 61,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.097,
+          "bytes": 3256160
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.091,
+          "bytes": 2038484
+        },
+        {
+          "duration_s": 1.12,
+          "download_s": 0.083,
+          "bytes": 401380
+        }
+      ],
+      "max_download_ratio": 0.074,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.57
+    },
+    {
+      "id": "NatureTime.ca",
+      "name": "NatureTime [1080p]",
+      "url_hash": "74068ab12d8d107c4852cb6c655222d2cd97653295270772cad8fb55d196116d",
+      "status": "pass",
+      "playlist_response_ms": 92,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.106,
+          "bytes": 3332112
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.163,
+          "bytes": 3130952
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.198,
+          "bytes": 3198068
+        }
+      ],
+      "max_download_ratio": 0.033,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.85
+    },
+    {
+      "id": "ACCDigitalNetwork.us",
+      "name": "ACC Digital Network [1080p]",
+      "url_hash": "c4dc51617bef8577ae0f4c76e253431eaa159d50063a82b704b7dcf3f57ef543",
+      "status": "pass",
+      "playlist_response_ms": 63,
+      "samples": [
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.19,
+          "bytes": 3257852
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.248,
+          "bytes": 3967176
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.134,
+          "bytes": 3967552
+        }
+      ],
+      "max_download_ratio": 0.041,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.95
+    },
+    {
+      "id": "beINSPORTSXTRA.us",
+      "name": "beIN SPORTS XTRA [1080p]",
+      "url_hash": "6cbb62ac3ee0eae38e0c7635d3b39cdd28c34dac8a158e61175a7bb9b1730dee",
+      "status": "pass",
+      "playlist_response_ms": 40,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.073,
+          "bytes": 2967580
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.073,
+          "bytes": 3076432
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.102,
+          "bytes": 3532144
+        }
+      ],
+      "max_download_ratio": 0.017,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.58
+    },
+    {
+      "id": "EurovisionSport.uk",
+      "name": "Eurovision Sport [1080p]",
+      "url_hash": "ceb3797b37b5bde3207603d1f53b75ffd648c2ab54f51e4146073f731466de2d",
+      "status": "pass",
+      "playlist_response_ms": 89,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.293,
+          "bytes": 3863400
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.43,
+          "bytes": 4474400
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.829,
+          "bytes": 4399576
+        }
+      ],
+      "max_download_ratio": 0.138,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 2.02
+    },
+    {
+      "id": "FloHockey.us",
+      "name": "FloHockey [1080p]",
+      "url_hash": "e10aee0ef6935a2f23d83a6b235a1364269662c7e4547eff9f1a4003e9d0d180",
+      "status": "pass",
+      "playlist_response_ms": 71,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.248,
+          "bytes": 3260484
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.069,
+          "bytes": 3401860
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.12,
+          "bytes": 3323088
+        }
+      ],
+      "max_download_ratio": 0.041,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.77
+    },
+    {
+      "id": "FloRacing.us",
+      "name": "FloRacing [1080p]",
+      "url_hash": "28283a1615550316606a0bd205f8f22c691187a41bbc436685bac165679d3506",
+      "status": "pass",
+      "playlist_response_ms": 37,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.07,
+          "bytes": 3346588
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.075,
+          "bytes": 3350912
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.117,
+          "bytes": 3360124
+        }
+      ],
+      "max_download_ratio": 0.019,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.45
+    },
+    {
+      "id": "BBCDrama.uk",
+      "name": "BBC Drama [1080p]",
+      "url_hash": "a6cf523a6a61cb83b19ce74abeb6b7d70e3433ffcb99c61f2b2f298005707cb0",
+      "status": "pass",
+      "playlist_response_ms": 36,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.066,
+          "bytes": 3129824
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.074,
+          "bytes": 3508268
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.454,
+          "bytes": 3164604
+        }
+      ],
+      "max_download_ratio": 0.076,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.87
+    },
+    {
+      "id": "BounceXL.us",
+      "name": "Bounce XL [1080p]",
+      "url_hash": "85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef",
+      "status": "pass",
+      "playlist_response_ms": 190,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.267,
+          "bytes": 3792900
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.25,
+          "bytes": 3144300
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.301,
+          "bytes": 3342640
+        }
+      ],
+      "max_download_ratio": 0.05,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.56
+    },
+    {
+      "id": "Circle.us",
+      "name": "Circle [1080p]",
+      "url_hash": "2d0e7735e68a2ff43e4c1d1e9706870a7945966cf52529e69b3ab127e10c1337",
+      "status": "pass",
+      "playlist_response_ms": 163,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.149,
+          "bytes": 3052932
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.246,
+          "bytes": 3260672
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.206,
+          "bytes": 3164792
+        }
+      ],
+      "max_download_ratio": 0.041,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.05
+    },
+    {
+      "id": "FearFactor.us",
+      "name": "Fear Factor [1080p]",
+      "url_hash": "034ad465b19a7a53a64790e6917ef46db9c917001a0b3d3ec5d3311e63874c43",
+      "status": "pass",
+      "playlist_response_ms": 182,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.263,
+          "bytes": 3150128
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.333,
+          "bytes": 3198632
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.324,
+          "bytes": 3303536
+        }
+      ],
+      "max_download_ratio": 0.056,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.44
+    },
+    {
+      "id": "GREATromance.uk",
+      "name": "GREAT! romance [1080p]",
+      "url_hash": "14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31",
+      "status": "pass",
+      "playlist_response_ms": 48,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.121,
+          "bytes": 3167800
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.13,
+          "bytes": 3244128
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.646,
+          "bytes": 3298648
+        }
+      ],
+      "max_download_ratio": 0.108,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.21
+    },
+    {
+      "id": "GritXtra.us",
+      "name": "Grit Xtra [1080p]",
+      "url_hash": "58b2ae135f7bac7dc366d57a2e6c654243cfb02c7f2027ae1bf7c35608b9457e",
+      "status": "pass",
+      "playlist_response_ms": 174,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.257,
+          "bytes": 3347904
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.24,
+          "bytes": 3451116
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.321,
+          "bytes": 3302408
+        }
+      ],
+      "max_download_ratio": 0.053,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.42
+    },
+    {
+      "id": "HellsKitchen.us",
+      "name": "Hell's Kitchen [1080p]",
+      "url_hash": "83bf382b7e55560e4891d1d87ac9bc41ac8f258cf8f88726b7fddaf87a2dc59f",
+      "status": "pass",
+      "playlist_response_ms": 200,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.678,
+          "bytes": 3174004
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.679,
+          "bytes": 3471796
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.626,
+          "bytes": 3330232
+        }
+      ],
+      "max_download_ratio": 0.113,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 2.56
+    },
+    {
+      "id": "MrBeanAnimated.uk",
+      "name": "Mr Bean Animated [1080p]",
+      "url_hash": "5a7d14cc2ca5f368975639ad09547e41a077dd8741c20f08dbc0cf02ed93c222",
+      "status": "pass",
+      "playlist_response_ms": 38,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.072,
+          "bytes": 2841432
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.074,
+          "bytes": 3283796
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.068,
+          "bytes": 3419344
+        }
+      ],
+      "max_download_ratio": 0.012,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.43
+    },
+    {
+      "id": "TinyPop.uk",
+      "name": "Tiny Pop [1080p]",
+      "url_hash": "6f8fd565e42fa72fdfa1d516f1aa82c1bd685ec5dd596d9377100292d1000423",
+      "status": "pass",
+      "playlist_response_ms": 49,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.122,
+          "bytes": 3144112
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.116,
+          "bytes": 3366516
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.118,
+          "bytes": 3199008
+        }
+      ],
+      "max_download_ratio": 0.02,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.67
+    },
+    {
+      "id": "ToonGoggles.us",
+      "name": "ToonGoggles [720p]",
+      "url_hash": "173dc37c9972e4cd7c29c5711823a229b482af4a22f00dc01726d2bb8f0f8bdc",
+      "status": "pass",
+      "playlist_response_ms": 202,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.291,
+          "bytes": 2157488
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.264,
+          "bytes": 2043560
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.195,
+          "bytes": 2021000
+        }
+      ],
+      "max_download_ratio": 0.048,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 1.29
+    },
+    {
+      "id": "WOWKidz.in",
+      "name": "WOW Kidz [720p]",
+      "url_hash": "a8c0e5004a2b7669331cd22d90f9cccb70f898d6a4fc35f23263a3ea777f2ac9",
+      "status": "pass",
+      "playlist_response_ms": 197,
+      "samples": [
+        {
+          "duration_s": 4.0,
+          "download_s": 1.059,
+          "bytes": 1036632
+        },
+        {
+          "duration_s": 4.0,
+          "download_s": 0.925,
+          "bytes": 950152
+        },
+        {
+          "duration_s": 4.0,
+          "download_s": 1.987,
+          "bytes": 1002604
+        }
+      ],
+      "max_download_ratio": 0.497,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 4.3
+    },
+    {
+      "id": "BestofDanceTV.ee",
+      "name": "Best of Dance TV [1080p]",
+      "url_hash": "70ab23aab2b4e441c8aa41a3537960f125bb5d6a22561c8e4aad82fc1b3f90c9",
+      "status": "pass",
+      "playlist_response_ms": 727,
+      "samples": [
+        {
+          "duration_s": 2.0,
+          "download_s": 1.336,
+          "bytes": 1147740
+        },
+        {
+          "duration_s": 2.0,
+          "download_s": 1.24,
+          "bytes": 1086452
+        },
+        {
+          "duration_s": 2.0,
+          "download_s": 1.236,
+          "bytes": 1190604
+        }
+      ],
+      "max_download_ratio": 0.668,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 5.46
+    },
+    {
+      "id": "CaliforniaMusicChannel.us",
+      "name": "California Music Channel [1080p]",
+      "url_hash": "5ffe5075a02f3b65a2593c9daab4d4b714e80aaaf3c7e5d2c3bd515327e908d9",
+      "status": "pass",
+      "playlist_response_ms": 109,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.13,
+          "bytes": 4031472
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.196,
+          "bytes": 4067192
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.194,
+          "bytes": 3970372
+        }
+      ],
+      "max_download_ratio": 0.033,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.89
+    },
+    {
+      "id": "Now70s.uk",
+      "name": "Now 70s [720p]",
+      "url_hash": "01ba2bc1cf5a1127f1c6de6e47e3bb31eec83f8ac891d95b5700c050b417fbbe",
+      "status": "pass",
+      "playlist_response_ms": 923,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.362,
+          "bytes": 2553980
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.06,
+          "bytes": 2599288
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.122,
+          "bytes": 2570524
+        }
+      ],
+      "max_download_ratio": 0.343,
+      "width": 1280,
+      "height": 720,
+      "quality": "sample_ok",
+      "elapsed_s": 4.41
+    },
+    {
+      "id": "Now80s.uk",
+      "name": "Now 80s [1080p]",
+      "url_hash": "ee013d609e5ea1a3e989771d1b37f47ae374353d383a09c7055c4b9bef43ab88",
+      "status": "pass",
+      "playlist_response_ms": 177,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 0.112,
+          "bytes": 3191300
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.209,
+          "bytes": 3153888
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.077,
+          "bytes": 3323088
+        }
+      ],
+      "max_download_ratio": 0.368,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 3.04
+    },
+    {
+      "id": "bonappetit.us",
+      "name": "bon appetit [1080p]",
+      "url_hash": "a6104145d26e767d6d6b4f18f137afab7ddf8754bbeff616e409ba5e0b5c086f",
+      "status": "pass",
+      "playlist_response_ms": 91,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.102,
+          "bytes": 3191676
+        },
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.153,
+          "bytes": 3244692
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.246,
+          "bytes": 3438520
+        }
+      ],
+      "max_download_ratio": 0.041,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.85
+    },
+    {
+      "id": "Tastemade.us",
+      "name": "Tastemade [1080p]",
+      "url_hash": "dda3bf79344ca9bda74bbaba441e3f4fb0aa8fa86aecf42eedf5d59d3818dfa9",
+      "status": "pass",
+      "playlist_response_ms": 157,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.354,
+          "bytes": 2775068
+        },
+        {
+          "duration_s": 5.973,
+          "download_s": 0.339,
+          "bytes": 3332676
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.418,
+          "bytes": 3082448
+        }
+      ],
+      "max_download_ratio": 0.07,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 1.61
+    },
+    {
+      "id": "TheDesignNetwork.us",
+      "name": "The Design Network [1080p]",
+      "url_hash": "44a7566b064d656f3d1190d9b94ff48bba5666bcade32d46b8c9e00c17919245",
+      "status": "pass",
+      "playlist_response_ms": 64,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.072,
+          "bytes": 2732204
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.075,
+          "bytes": 3189232
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.071,
+          "bytes": 3396032
+        }
+      ],
+      "max_download_ratio": 0.012,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.56
+    },
+    {
+      "id": "NDTVGoodTimes.in",
+      "name": "NDTV Good Times [1080p]",
+      "url_hash": "6c5837d0f4f07a0cc76622640b587e85298b08445e6757f755acd67db7e07295",
+      "status": "pass",
+      "playlist_response_ms": 119,
+      "samples": [
+        {
+          "duration_s": 6.0,
+          "download_s": 2.287,
+          "bytes": 1855936
+        },
+        {
+          "duration_s": 5.999,
+          "download_s": 2.209,
+          "bytes": 1241740
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 2.211,
+          "bytes": 1624508
+        }
+      ],
+      "max_download_ratio": 0.381,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 7.14
+    },
+    {
+      "id": "AntiquesRoadTrip.us",
+      "name": "Antiques Road Trip [1080p]",
+      "url_hash": "455c23b5c60da8527df5e3e51b251f3409df194752d02c77e54af87d875fb850",
+      "status": "pass",
+      "playlist_response_ms": 64,
+      "samples": [
+        {
+          "duration_s": 6.006,
+          "download_s": 0.077,
+          "bytes": 3299212
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.078,
+          "bytes": 3341888
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.08,
+          "bytes": 3419720
+        }
+      ],
+      "max_download_ratio": 0.013,
+      "width": 1920,
+      "height": 1080,
+      "quality": "sample_ok",
+      "elapsed_s": 0.65
+    }
+  ]
+}

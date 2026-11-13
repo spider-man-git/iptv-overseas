@@ -1,6 +1,6 @@
 #EXTM3U
-# 海外及港台公开线路；不包含家庭IPTV、内网地址或凭据。
-# 初始清单：此前抽样检查，不代表今天或用户家庭网络表现。
+# Updated 2026-11-13T03:32:36.483550+00:00
+# Cloud sample checks; not guaranteed home-network performance or live identity.
 #EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV [1080p]" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-chno="46" group-title="04 港台频道",Pet Club TV [1080p]
 https://petclub-samsungaus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-name="Taiwan Indigenous TV [720p]" tvg-logo="https://i.imgur.com/QqIdVqz.png" tvg-chno="47" group-title="04 港台频道",Taiwan Indigenous TV [720p]

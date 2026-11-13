@@ -1,1 +1,198 @@
-{}
+{
+  "PetClubTV.hk": {
+    "failures": 0,
+    "last_good_url": "https://petclub-samsungaus.amagi.tv/playlist.m3u8"
+  },
+  "TaiwanIndigenousTV.tw": {
+    "failures": 1,
+    "last_good_url": null
+  },
+  "凤凰中文": {
+    "failures": 0,
+    "last_good_url": "http://173.208.234.146/live/fhzw.m3u8"
+  },
+  "凤凰资讯": {
+    "failures": 0,
+    "last_good_url": "http://173.208.234.146/live/fhzx.m3u8"
+  },
+  "凤凰香港": {
+    "failures": 0,
+    "last_good_url": "http://173.208.234.146/live/fhxg.m3u8"
+  },
+  "TVBS亚洲": {
+    "failures": 0,
+    "last_good_url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8"
+  },
+  "民视新闻": {
+    "failures": 0,
+    "last_good_url": "http://38.64.72.148/hls/modn/list/4012/playlist.m3u8"
+  },
+  "ABCNews.au": {
+    "failures": 0,
+    "last_good_url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8"
+  },
+  "AfricanewsEnglish.fr": {
+    "failures": 0,
+    "last_good_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8"
+  },
+  "AlJazeera.qa": {
+    "failures": 0,
+    "last_good_url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
+  },
+  "AlMashhad.ae": {
+    "failures": 0,
+    "last_good_url": "https://amg30483-amg30483c23-amgplt0794.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg30483-amg30483c23-amgplt0794/playlist.m3u8?ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.appversion=[APP_VERSION]&ads.bundleid=[APP_BUNDLE]&ads.coppa=0&ads.country=[COUNTRY]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.devicetype=[DEVICE_TYPE]&ads.donotsell=[DNS]&ads.fck=[FCK]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.givn=[NONCE]&ads.ic=[IC]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.lat=[LMT]&ads.network_name=[networkname]&ads.targetad=[TARGETAD_ALLOWED]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]"
+  },
+  "ArirangUN.kr": {
+    "failures": 0,
+    "last_good_url": "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8"
+  },
+  "CBSNewsBaltimore.us": {
+    "failures": 0,
+    "last_good_url": "https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8"
+  },
+  "CityNewsToronto.ca": {
+    "failures": 0,
+    "last_good_url": "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8"
+  },
+  "CNNenEspanol.us": {
+    "failures": 0,
+    "last_good_url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "BloombergTV.us": {
+    "failures": 1,
+    "last_good_url": null
+  },
+  "BloombergOriginals.us": {
+    "failures": 1,
+    "last_good_url": null
+  },
+  "CNBCArabiya.ae": {
+    "failures": 0,
+    "last_good_url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8"
+  },
+  "CNBCTV18.in": {
+    "failures": 0,
+    "last_good_url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8"
+  },
+  "CNAOriginals.sg": {
+    "failures": 0,
+    "last_good_url": "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "BBCEarth.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8"
+  },
+  "CuriosityNOW.de": {
+    "failures": 0,
+    "last_good_url": "https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "HistoryHit.uk": {
+    "failures": 0,
+    "last_good_url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8"
+  },
+  "NatureTime.ca": {
+    "failures": 0,
+    "last_good_url": "https://bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8"
+  },
+  "ACCDigitalNetwork.us": {
+    "failures": 0,
+    "last_good_url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8"
+  },
+  "beINSPORTSXTRA.us": {
+    "failures": 0,
+    "last_good_url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8"
+  },
+  "EurovisionSport.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8"
+  },
+  "FloHockey.us": {
+    "failures": 0,
+    "last_good_url": "https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "FloRacing.us": {
+    "failures": 0,
+    "last_good_url": "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "BBCDrama.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "BounceXL.us": {
+    "failures": 0,
+    "last_good_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8"
+  },
+  "Circle.us": {
+    "failures": 0,
+    "last_good_url": "https://circle-roku.amagi.tv/playlist.m3u8"
+  },
+  "FearFactor.us": {
+    "failures": 0,
+    "last_good_url": "https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8"
+  },
+  "GREATromance.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8"
+  },
+  "GritXtra.us": {
+    "failures": 0,
+    "last_good_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8"
+  },
+  "HellsKitchen.us": {
+    "failures": 0,
+    "last_good_url": "https://amg00654-itv-amg00654c1-samsung-au-1072.playouts.now.amagi.tv/itv-hellskitchen-samsung/playlist.m3u8"
+  },
+  "MrBeanAnimated.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "TinyPop.uk": {
+    "failures": 0,
+    "last_good_url": "https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8"
+  },
+  "ToonGoggles.us": {
+    "failures": 0,
+    "last_good_url": "https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8"
+  },
+  "WOWKidz.in": {
+    "failures": 0,
+    "last_good_url": "https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+  },
+  "BestofDanceTV.ee": {
+    "failures": 0,
+    "last_good_url": "https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8"
+  },
+  "CaliforniaMusicChannel.us": {
+    "failures": 0,
+    "last_good_url": "https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8"
+  },
+  "Now70s.uk": {
+    "failures": 0,
+    "last_good_url": "https://lightningnow70-samsungau.amagi.tv/playlist.m3u8"
+  },
+  "Now80s.uk": {
+    "failures": 0,
+    "last_good_url": "https://lightningnow80-samsungau.amagi.tv/playlist.m3u8"
+  },
+  "bonappetit.us": {
+    "failures": 0,
+    "last_good_url": "https://bonappetit-samsung.amagi.tv/playlist.m3u8"
+  },
+  "Tastemade.us": {
+    "failures": 0,
+    "last_good_url": "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8"
+  },
+  "TheDesignNetwork.us": {
+    "failures": 0,
+    "last_good_url": "https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  "NDTVGoodTimes.in": {
+    "failures": 0,
+    "last_good_url": "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8"
+  },
+  "AntiquesRoadTrip.us": {
+    "failures": 0,
+    "last_good_url": "https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8"
+  }
+}
