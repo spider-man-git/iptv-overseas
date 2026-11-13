@@ -2,7 +2,7 @@ name: Daily playlist health check
 on:
   push:
     branches: [main]
-    paths: ["sources.m3u", "scripts/**", "tests/**", ".github/workflows/daily.yml"]
+    paths: ["sources.m3u", "domestic.m3u", "scripts/**", "tests/**", ".github/workflows/daily.yml"]
   schedule:
     - cron: '17 0 * * *' # 08:17 Asia/Shanghai; GitHub may delay scheduled runs.
   workflow_dispatch:
@@ -23,11 +23,13 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Check HLS samples
         run: python3 scripts/check.py
+      - name: Merge domestic IPTV without probing it
+        run: python3 scripts/merge.py
       - name: Commit updated playlist and report
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add live.m3u report.json state.json
+          git add live.m3u overseas.m3u report.json state.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update daily playlist health report'
             git push
