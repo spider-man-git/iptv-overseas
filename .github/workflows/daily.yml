@@ -1,0 +1,34 @@
+name: Daily playlist health check
+on:
+  push:
+    branches: [main]
+    paths: ["sources.m3u", "scripts/**", "tests/**", ".github/workflows/daily.yml"]
+  schedule:
+    - cron: '17 0 * * *' # 08:17 Asia/Shanghai; GitHub may delay scheduled runs.
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: playlist-update
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install video probe
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Check HLS samples
+        run: python3 scripts/check.py
+      - name: Commit updated playlist and report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add live.m3u report.json state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update daily playlist health report'
+            git push
+          fi
