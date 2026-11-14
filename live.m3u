@@ -263,7 +263,7 @@ http://192.168.31.112:5893/udp/233.50.201.85:5140
 #EXTINF:-1 tvg-id="浙江民生资讯广播" tvg-name="浙江民生资讯广播" tvg-logo="https://myepg.org/Logo/浙江民生资讯广播.png" group-title="广播",浙江民生资讯广播
 http://192.168.31.112:5893/udp/233.50.201.86:5140
 # Overseas selection follows.
-# Updated 2026-11-13T15:37:49.499868+00:00
+# Updated 2026-11-14T06:27:24.581593+00:00
 # Cloud sample checks; not guaranteed home-network performance or live identity.
 #EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV [1080p]" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-chno="46" group-title="04 港台频道",Pet Club TV [1080p]
 https://petclub-samsungaus.amagi.tv/playlist.m3u8

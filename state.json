@@ -8,15 +8,15 @@
     "last_good_url": null
   },
   "凤凰中文": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": "http://173.208.234.146/live/fhzw.m3u8"
   },
   "凤凰资讯": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": "http://173.208.234.146/live/fhzx.m3u8"
   },
   "凤凰香港": {
-    "failures": 1,
+    "failures": 0,
     "last_good_url": "http://173.208.234.146/live/fhxg.m3u8"
   },
   "TVBS亚洲": {
