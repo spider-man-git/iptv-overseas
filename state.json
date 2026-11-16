@@ -8,15 +8,15 @@
     "last_good_url": null
   },
   "凤凰中文": {
-    "failures": 1,
+    "failures": 2,
     "last_good_url": "http://173.208.234.146/live/fhzw.m3u8"
   },
   "凤凰资讯": {
-    "failures": 1,
+    "failures": 2,
     "last_good_url": "http://173.208.234.146/live/fhzx.m3u8"
   },
   "凤凰香港": {
-    "failures": 1,
+    "failures": 2,
     "last_good_url": "http://173.208.234.146/live/fhxg.m3u8"
   },
   "TVBS亚洲": {
@@ -72,7 +72,7 @@
     "last_good_url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8"
   },
   "CNBCTV18.in": {
-    "failures": 0,
+    "failures": 1,
     "last_good_url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8"
   },
   "CNAOriginals.sg": {
