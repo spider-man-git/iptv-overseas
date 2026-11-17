@@ -1,16 +1,10 @@
 #EXTM3U
-# Updated 2026-11-16T06:33:00.291998+00:00
+# Updated 2026-11-17T07:57:42.545079+00:00
 # Cloud sample checks; not guaranteed home-network performance or live identity.
 #EXTINF:-1 tvg-id="PetClubTV.hk" tvg-name="Pet Club TV [1080p]" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-chno="46" group-title="04 港台频道",Pet Club TV [1080p]
 https://petclub-samsungaus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw" tvg-name="Taiwan Indigenous TV [720p]" tvg-logo="https://i.imgur.com/QqIdVqz.png" tvg-chno="47" group-title="04 港台频道",Taiwan Indigenous TV [720p]
 https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰中文.png" tvg-chno="48" group-title="04 港台频道",凤凰中文 [720p]
-http://173.208.234.146/live/fhzw.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰资讯.png" tvg-chno="49" group-title="04 港台频道",凤凰资讯 [720p]
-http://173.208.234.146/live/fhzx.m3u8
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港 [720p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/凤凰香港.png" tvg-chno="50" group-title="04 港台频道",凤凰香港 [720p]
-http://173.208.234.146/live/fhxg.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲 [1080p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS亚洲.png" tvg-chno="51" group-title="04 港台频道",TVBS亚洲 [1080p]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="民视新闻" tvg-name="民视新闻 [1080p]" tvg-logo="https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/民视新闻.png" tvg-chno="52" group-title="04 港台频道",民视新闻 [1080p]
