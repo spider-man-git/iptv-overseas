@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T07:19:24.018649+00:00",
+  "checked_at_utc": "2026-11-21T07:11:38.261721+00:00",
   "runner": "cloud runner, not the viewer home network",
   "scope": "3 HLS segments, offline video metadata and one decoded frame; not long-term stability or channel-identity verification",
   "broad_outage": false,
@@ -20,29 +20,29 @@
       "url_hash": "f0c8e27a669b084ae20898b87048c76bac74a7af5aa442fc53b0b0109ad5f367",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 637,
+      "playlist_response_ms": 40,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.107,
-          "bytes": 3302972
+          "download_s": 1.295,
+          "bytes": 3088088
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.795,
-          "bytes": 3026612
+          "download_s": 1.415,
+          "bytes": 3271952
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.751,
-          "bytes": 3159716
+          "download_s": 1.311,
+          "bytes": 2998788
         }
       ],
-      "max_download_ratio": 0.299,
+      "max_download_ratio": 0.236,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 4.64
+      "elapsed_s": 4.73
     },
     {
       "id": "TaiwanIndigenousTV.tw",
@@ -50,7 +50,7 @@
       "url_hash": "ff679de576c04dae743cb208a769b2d0245befb0dd0dea619fb2d29fdf676fe1",
       "status": "untestable",
       "reason": "encrypted media is not tested",
-      "elapsed_s": 0.55
+      "elapsed_s": 1.76
     },
     {
       "id": "凤凰中文",
@@ -58,7 +58,7 @@
       "url_hash": "30ac0139bdbc2061dbb0cbec1a12c5bcbb496071afd95317535c4d7ab3fe07b6",
       "status": "fail",
       "reason": "ValueError: HTTP 404",
-      "elapsed_s": 0.06
+      "elapsed_s": 0.2
     },
     {
       "id": "凤凰资讯",
@@ -66,7 +66,7 @@
       "url_hash": "97ce0f65a069cfc440428e6ec1e9256216f443a6b67e138e280484f1d8f3c292",
       "status": "fail",
       "reason": "ValueError: HTTP 404",
-      "elapsed_s": 0.06
+      "elapsed_s": 0.2
     },
     {
       "id": "凤凰香港",
@@ -74,7 +74,7 @@
       "url_hash": "71442dc4821b5f44eb4fdd7462c815bc15c634d19630d259b72916d22bd339ae",
       "status": "fail",
       "reason": "ValueError: HTTP 404",
-      "elapsed_s": 0.06
+      "elapsed_s": 0.2
     },
     {
       "id": "TVBS亚洲",
@@ -82,29 +82,29 @@
       "url_hash": "187bd475eb50771056b345ad9e5b313f8f839e5dbfd296a60194eee49607c581",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 111,
+      "playlist_response_ms": 23,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 2.576,
-          "bytes": 2037920
+          "download_s": 1.482,
+          "bytes": 1979264
+        },
+        {
+          "duration_s": 5.972633,
+          "download_s": 1.107,
+          "bytes": 2065744
         },
         {
           "duration_s": 6.006,
-          "download_s": 12.878,
-          "bytes": 2054652
-        },
-        {
-          "duration_s": 6.006,
-          "download_s": 0.764,
-          "bytes": 2047320
+          "download_s": 0.824,
+          "bytes": 2019496
         }
       ],
-      "max_download_ratio": 2.144,
+      "max_download_ratio": 0.247,
       "width": 1920,
       "height": 1080,
-      "quality": "slow",
-      "elapsed_s": 16.87
+      "quality": "sample_ok",
+      "elapsed_s": 3.62
     },
     {
       "id": "民视新闻",
@@ -112,29 +112,29 @@
       "url_hash": "77268d879fcbf09a56354aa86e4e36619d7e5812f7267041d307955eb824301b",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 113,
+      "playlist_response_ms": 21,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 1.874,
-          "bytes": 2043748
+          "download_s": 0.37,
+          "bytes": 2035476
+        },
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.869,
+          "bytes": 2052584
         },
         {
           "duration_s": 6.006,
-          "download_s": 2.42,
-          "bytes": 2067812
-        },
-        {
-          "duration_s": 6.006,
-          "download_s": 5.249,
-          "bytes": 2034912
+          "download_s": 0.544,
+          "bytes": 2020812
         }
       ],
-      "max_download_ratio": 0.874,
+      "max_download_ratio": 0.145,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 10.13
+      "elapsed_s": 2.11
     },
     {
       "id": "ABCNews.au",
@@ -142,29 +142,29 @@
       "url_hash": "6250248a9386318e205bd783d428838e45f85904c157041c13a6fc4e0682a40b",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 21,
+      "playlist_response_ms": 183,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.052,
-          "bytes": 1075736
+          "download_s": 0.044,
+          "bytes": 1040204
+        },
+        {
+          "duration_s": 6.0,
+          "download_s": 0.037,
+          "bytes": 1251516
         },
         {
           "duration_s": 6.0,
           "download_s": 0.044,
-          "bytes": 1429928
-        },
-        {
-          "duration_s": 6.0,
-          "download_s": 2.14,
-          "bytes": 1444780
+          "bytes": 1185904
         }
       ],
-      "max_download_ratio": 0.357,
+      "max_download_ratio": 0.007,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 2.75
+      "elapsed_s": 1.01
     },
     {
       "id": "AfricanewsEnglish.fr",
@@ -172,29 +172,29 @@
       "url_hash": "75e3638a2fbaadd0366773914a6bdb03185fe1c850079ee3dc851798ba70e6b0",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 310,
+      "playlist_response_ms": 486,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 1.113,
-          "bytes": 2593272
+          "download_s": 1.787,
+          "bytes": 2605304
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.12,
-          "bytes": 2608312
+          "download_s": 1.706,
+          "bytes": 2626360
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.124,
-          "bytes": 2635384
+          "download_s": 1.677,
+          "bytes": 2641400
         }
       ],
-      "max_download_ratio": 0.187,
+      "max_download_ratio": 0.298,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 4.03
+      "elapsed_s": 6.0
     },
     {
       "id": "AlJazeera.qa",
@@ -202,29 +202,29 @@
       "url_hash": "918aa398fd1b9a3374636e0c577116c317293afc4b733d139094349b0cdd799a",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 69,
+      "playlist_response_ms": 507,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.564,
-          "bytes": 3341512
+          "download_s": 0.065,
+          "bytes": 3533648
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.114,
-          "bytes": 3742516
+          "download_s": 0.067,
+          "bytes": 3584408
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.272,
-          "bytes": 3493604
+          "download_s": 0.109,
+          "bytes": 3533084
         }
       ],
-      "max_download_ratio": 0.094,
+      "max_download_ratio": 0.018,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.55
+      "elapsed_s": 1.43
     },
     {
       "id": "AlMashhad.ae",
@@ -232,29 +232,29 @@
       "url_hash": "75b9877c1505a314886e9da58036730005b422a5482b717e23b32dfa19da1593",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 230,
+      "playlist_response_ms": 301,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.639,
-          "bytes": 2337404
+          "download_s": 1.164,
+          "bytes": 2324056
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.566,
-          "bytes": 2326876
+          "download_s": 1.249,
+          "bytes": 2159180
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.638,
-          "bytes": 2506228
+          "download_s": 1.792,
+          "bytes": 2496452
         }
       ],
-      "max_download_ratio": 0.106,
+      "max_download_ratio": 0.299,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 2.67
+      "elapsed_s": 5.14
     },
     {
       "id": "ArirangUN.kr",
@@ -262,29 +262,29 @@
       "url_hash": "432bfa1217ae91e47a4574cf27c3b30ae1817ec1c53b58f168aee260144378dd",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 346,
+      "playlist_response_ms": 506,
       "samples": [
         {
           "duration_s": 2.002,
-          "download_s": 2.112,
-          "bytes": 878900
+          "download_s": 1.504,
+          "bytes": 1027420
         },
         {
           "duration_s": 2.002,
-          "download_s": 0.038,
-          "bytes": 774372
+          "download_s": 0.084,
+          "bytes": 897136
         },
         {
           "duration_s": 2.002,
-          "download_s": 0.069,
-          "bytes": 773244
+          "download_s": 0.028,
+          "bytes": 979104
         }
       ],
-      "max_download_ratio": 1.055,
+      "max_download_ratio": 0.751,
       "width": 1920,
       "height": 1080,
-      "quality": "slow",
-      "elapsed_s": 3.02
+      "quality": "sample_ok",
+      "elapsed_s": 2.99
     },
     {
       "id": "CBSNewsBaltimore.us",
@@ -292,29 +292,29 @@
       "url_hash": "d30ffdc71eeeff3e395f7fbce1a70c17d88d22b85e3c859c3ec0d4c323bf4330",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 79,
+      "playlist_response_ms": 76,
       "samples": [
         {
           "duration_s": 2.0,
-          "download_s": 0.093,
-          "bytes": 692216
+          "download_s": 0.366,
+          "bytes": 791480
         },
         {
           "duration_s": 2.0,
-          "download_s": 0.023,
-          "bytes": 713272
+          "download_s": 0.082,
+          "bytes": 758392
         },
         {
           "duration_s": 2.0,
-          "download_s": 0.046,
-          "bytes": 827576
+          "download_s": 0.086,
+          "bytes": 710264
         }
       ],
-      "max_download_ratio": 0.046,
+      "max_download_ratio": 0.183,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 0.59
+      "elapsed_s": 0.97
     },
     {
       "id": "CityNewsToronto.ca",
@@ -322,29 +322,29 @@
       "url_hash": "2fb074d7300ed2b9402b00f5906eb765ff965561081dda69a7d9339da74978a2",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 31,
+      "playlist_response_ms": 247,
       "samples": [
         {
           "duration_s": 5.005,
-          "download_s": 0.044,
-          "bytes": 2023632
+          "download_s": 0.626,
+          "bytes": 1891280
         },
         {
           "duration_s": 5.005,
-          "download_s": 0.058,
-          "bytes": 1986972
+          "download_s": 0.597,
+          "bytes": 2014232
         },
         {
           "duration_s": 5.005,
-          "download_s": 0.034,
-          "bytes": 2103908
+          "download_s": 0.651,
+          "bytes": 1992612
         }
       ],
-      "max_download_ratio": 0.012,
+      "max_download_ratio": 0.13,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 0.45
+      "elapsed_s": 2.69
     },
     {
       "id": "CNNenEspanol.us",
@@ -352,29 +352,29 @@
       "url_hash": "77cba2fa53598b2dc18aa8010089af10c198d1fa15db91aed45ca31a8715a5b9",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 137,
+      "playlist_response_ms": 41,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.064,
-          "bytes": 3158400
+          "download_s": 0.032,
+          "bytes": 3640244
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.088,
-          "bytes": 3229088
+          "download_s": 0.031,
+          "bytes": 3053120
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.782,
-          "bytes": 3103504
+          "download_s": 0.992,
+          "bytes": 3196752
         }
       ],
-      "max_download_ratio": 0.13,
+      "max_download_ratio": 0.165,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.67
+      "elapsed_s": 1.76
     },
     {
       "id": "BloombergTV.us",
@@ -382,7 +382,7 @@
       "url_hash": "ce739c369283cd1027c2861790a3dc22f5ce135235805778b144660b393baa27",
       "status": "untestable",
       "reason": "HTTP access restriction 403",
-      "elapsed_s": 0.33
+      "elapsed_s": 0.22
     },
     {
       "id": "BloombergOriginals.us",
@@ -390,7 +390,7 @@
       "url_hash": "905b7cffaec130f2aa4830cb608d72f71237515218b2efe7d79d386224b26ed7",
       "status": "untestable",
       "reason": "HTTP access restriction 403",
-      "elapsed_s": 0.21
+      "elapsed_s": 0.22
     },
     {
       "id": "CNBCArabiya.ae",
@@ -398,29 +398,29 @@
       "url_hash": "543316a4826e8755bed1004f6815728c3acaf472233b54308f515d1ed9c46b40",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 121,
+      "playlist_response_ms": 185,
       "samples": [
         {
           "duration_s": 4.0,
-          "download_s": 0.042,
-          "bytes": 1504752
+          "download_s": 1.439,
+          "bytes": 1782992
         },
         {
           "duration_s": 4.0,
-          "download_s": 0.077,
-          "bytes": 1670568
+          "download_s": 1.325,
+          "bytes": 1719636
         },
         {
           "duration_s": 4.0,
-          "download_s": 1.017,
-          "bytes": 1796340
+          "download_s": 1.317,
+          "bytes": 1784872
         }
       ],
-      "max_download_ratio": 0.254,
+      "max_download_ratio": 0.36,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.7
+      "elapsed_s": 4.69
     },
     {
       "id": "CNBCTV18.in",
@@ -428,29 +428,29 @@
       "url_hash": "7174912e8a5058509aa8a9dc80cea2f169ed5f47842e6722ce4b7c79f073f942",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 341,
+      "playlist_response_ms": 793,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.058,
-          "bytes": 1621688
+          "download_s": 0.034,
+          "bytes": 1820216
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.137,
-          "bytes": 1748024
+          "download_s": 2.945,
+          "bytes": 1648760
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.329,
-          "bytes": 1787128
+          "download_s": 2.749,
+          "bytes": 1751032
         }
       ],
-      "max_download_ratio": 0.055,
+      "max_download_ratio": 0.491,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.33
+      "elapsed_s": 7.14
     },
     {
       "id": "CNAOriginals.sg",
@@ -458,29 +458,29 @@
       "url_hash": "2c766666d3fa677b5e40cfdec64503cd4336fc8bf384e6d1a550e3d8b66c39f0",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 132,
+      "playlist_response_ms": 24,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.762,
-          "bytes": 3124560
+          "download_s": 0.029,
+          "bytes": 3225140
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.782,
-          "bytes": 3243376
+          "download_s": 0.042,
+          "bytes": 3066844
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.846,
-          "bytes": 3202580
+          "download_s": 0.03,
+          "bytes": 3138472
         }
       ],
-      "max_download_ratio": 0.141,
+      "max_download_ratio": 0.007,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 3.21
+      "elapsed_s": 0.78
     },
     {
       "id": "BBCEarth.uk",
@@ -488,29 +488,29 @@
       "url_hash": "0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 302,
+      "playlist_response_ms": 40,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.05,
-          "bytes": 2838048
-        },
-        {
-          "duration_s": 5.972633,
-          "download_s": 0.05,
-          "bytes": 2954232
+          "download_s": 0.027,
+          "bytes": 2921896
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.787,
-          "bytes": 2822256
+          "download_s": 0.029,
+          "bytes": 3173628
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.226,
+          "bytes": 2942952
         }
       ],
-      "max_download_ratio": 0.131,
+      "max_download_ratio": 0.038,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.47
+      "elapsed_s": 0.7
     },
     {
       "id": "CuriosityNOW.de",
@@ -518,29 +518,29 @@
       "url_hash": "ff18369c6c0bfe0b021cc8dbc8c21ddcca199f72af45a47dfba899fd77f4a642",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 92,
+      "playlist_response_ms": 235,
       "samples": [
         {
-          "duration_s": 5.972633,
-          "download_s": 0.045,
-          "bytes": 3344708
+          "duration_s": 6.006,
+          "download_s": 0.629,
+          "bytes": 3311996
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.048,
-          "bytes": 3340572
+          "download_s": 0.643,
+          "bytes": 3097300
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.039,
-          "bytes": 3131328
+          "download_s": 0.65,
+          "bytes": 3500560
         }
       ],
-      "max_download_ratio": 0.008,
+      "max_download_ratio": 0.108,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.49
+      "elapsed_s": 2.38
     },
     {
       "id": "HistoryHit.uk",
@@ -548,29 +548,29 @@
       "url_hash": "288bb2eaa62e287044b8694f717958509975d9236307e9788850226e94319892",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 81,
+      "playlist_response_ms": 222,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.032,
-          "bytes": 2321612
+          "download_s": 0.171,
+          "bytes": 3130388
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.037,
-          "bytes": 3367644
+          "download_s": 0.162,
+          "bytes": 2693476
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.069,
-          "bytes": 3083012
+          "download_s": 0.634,
+          "bytes": 3271576
         }
       ],
-      "max_download_ratio": 0.012,
+      "max_download_ratio": 0.106,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.49
+      "elapsed_s": 1.39
     },
     {
       "id": "NatureTime.ca",
@@ -578,29 +578,29 @@
       "url_hash": "74068ab12d8d107c4852cb6c655222d2cd97653295270772cad8fb55d196116d",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 145,
+      "playlist_response_ms": 316,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.155,
-          "bytes": 3190548
+          "download_s": 0.632,
+          "bytes": 3179268
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.171,
-          "bytes": 3059136
+          "download_s": 0.807,
+          "bytes": 3309176
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.247,
-          "bytes": 3180584
+          "download_s": 0.638,
+          "bytes": 2932612
         }
       ],
-      "max_download_ratio": 0.041,
+      "max_download_ratio": 0.135,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.18
+      "elapsed_s": 2.87
     },
     {
       "id": "ACCDigitalNetwork.us",
@@ -608,29 +608,29 @@
       "url_hash": "c4dc51617bef8577ae0f4c76e253431eaa159d50063a82b704b7dcf3f57ef543",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 104,
+      "playlist_response_ms": 115,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.078,
-          "bytes": 4488876
-        },
-        {
-          "duration_s": 5.972633,
-          "download_s": 0.103,
-          "bytes": 3814520
+          "download_s": 0.037,
+          "bytes": 3980524
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.048,
-          "bytes": 4372692
+          "download_s": 0.054,
+          "bytes": 3977328
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.076,
+          "bytes": 4528544
         }
       ],
-      "max_download_ratio": 0.017,
+      "max_download_ratio": 0.013,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.62
+      "elapsed_s": 0.5
     },
     {
       "id": "beINSPORTSXTRA.us",
@@ -638,29 +638,29 @@
       "url_hash": "6cbb62ac3ee0eae38e0c7635d3b39cdd28c34dac8a158e61175a7bb9b1730dee",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 31,
+      "playlist_response_ms": 100,
       "samples": [
         {
-          "duration_s": 4.3043,
-          "download_s": 0.103,
-          "bytes": 2263896
-        },
-        {
-          "duration_s": 1.7017,
-          "download_s": 0.086,
-          "bytes": 927780
+          "duration_s": 6.006,
+          "download_s": 0.034,
+          "bytes": 3103504
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.08,
-          "bytes": 3231532
+          "download_s": 0.029,
+          "bytes": 2915128
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.616,
+          "bytes": 3318576
         }
       ],
-      "max_download_ratio": 0.051,
+      "max_download_ratio": 0.103,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.68
+      "elapsed_s": 1.23
     },
     {
       "id": "EurovisionSport.uk",
@@ -668,29 +668,29 @@
       "url_hash": "ceb3797b37b5bde3207603d1f53b75ffd648c2ab54f51e4146073f731466de2d",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 56,
+      "playlist_response_ms": 106,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.771,
-          "bytes": 4215336
+          "download_s": 1.459,
+          "bytes": 4453156
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.789,
-          "bytes": 4670484
+          "download_s": 1.59,
+          "bytes": 4731584
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.374,
-          "bytes": 4825020
+          "download_s": 1.567,
+          "bytes": 4830096
         }
       ],
-      "max_download_ratio": 0.132,
+      "max_download_ratio": 0.265,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 2.37
+      "elapsed_s": 5.03
     },
     {
       "id": "FloHockey.us",
@@ -698,29 +698,29 @@
       "url_hash": "e10aee0ef6935a2f23d83a6b235a1364269662c7e4547eff9f1a4003e9d0d180",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 72,
+      "playlist_response_ms": 236,
       "samples": [
         {
-          "duration_s": 6.0,
-          "download_s": 0.06,
-          "bytes": 3273456
+          "duration_s": 0.033333,
+          "download_s": 0.103,
+          "bytes": 125960
+        },
+        {
+          "duration_s": 1.166667,
+          "download_s": 0.478,
+          "bytes": 567760
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.039,
-          "bytes": 3331924
-        },
-        {
-          "duration_s": 6.0,
-          "download_s": 0.04,
-          "bytes": 3342640
+          "download_s": 0.669,
+          "bytes": 3346776
         }
       ],
-      "max_download_ratio": 0.01,
+      "max_download_ratio": 3.09,
       "width": 1920,
       "height": 1080,
-      "quality": "sample_ok",
-      "elapsed_s": 0.46
+      "quality": "slow",
+      "elapsed_s": 1.71
     },
     {
       "id": "FloRacing.us",
@@ -728,29 +728,29 @@
       "url_hash": "28283a1615550316606a0bd205f8f22c691187a41bbc436685bac165679d3506",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 98,
+      "playlist_response_ms": 228,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.036,
-          "bytes": 3226644
+          "download_s": 0.032,
+          "bytes": 3296392
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.037,
-          "bytes": 3345272
+          "download_s": 0.028,
+          "bytes": 3345084
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.196,
-          "bytes": 3549440
+          "download_s": 0.029,
+          "bytes": 3350348
         }
       ],
-      "max_download_ratio": 0.033,
+      "max_download_ratio": 0.005,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.7
+      "elapsed_s": 0.54
     },
     {
       "id": "BBCDrama.uk",
@@ -758,29 +758,29 @@
       "url_hash": "a6cf523a6a61cb83b19ce74abeb6b7d70e3433ffcb99c61f2b2f298005707cb0",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 36,
+      "playlist_response_ms": 441,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.048,
-          "bytes": 3336248
+          "download_s": 1.32,
+          "bytes": 3368396
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.047,
-          "bytes": 3135088
+          "download_s": 1.215,
+          "bytes": 3078688
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.049,
-          "bytes": 3251836
+          "download_s": 1.362,
+          "bytes": 3268756
         }
       ],
-      "max_download_ratio": 0.008,
+      "max_download_ratio": 0.227,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.52
+      "elapsed_s": 4.98
     },
     {
       "id": "BounceXL.us",
@@ -788,29 +788,29 @@
       "url_hash": "85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 105,
+      "playlist_response_ms": 48,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.16,
-          "bytes": 3635356
+          "download_s": 0.697,
+          "bytes": 3470856
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.111,
-          "bytes": 3589296
+          "download_s": 0.729,
+          "bytes": 3382308
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.293,
-          "bytes": 3054624
+          "download_s": 0.679,
+          "bytes": 3496612
         }
       ],
-      "max_download_ratio": 0.049,
+      "max_download_ratio": 0.121,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.26
+      "elapsed_s": 2.5
     },
     {
       "id": "Circle.us",
@@ -818,29 +818,29 @@
       "url_hash": "2d0e7735e68a2ff43e4c1d1e9706870a7945966cf52529e69b3ab127e10c1337",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 155,
+      "playlist_response_ms": 249,
       "samples": [
         {
-          "duration_s": 5.972633,
-          "download_s": 0.196,
-          "bytes": 3162348
+          "duration_s": 6.006,
+          "download_s": 0.636,
+          "bytes": 3268568
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.249,
-          "bytes": 3320080
+          "download_s": 0.602,
+          "bytes": 3062144
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.173,
-          "bytes": 3252776
+          "download_s": 0.308,
+          "bytes": 3369712
         }
       ],
-      "max_download_ratio": 0.041,
+      "max_download_ratio": 0.106,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.06
+      "elapsed_s": 2.01
     },
     {
       "id": "FearFactor.us",
@@ -848,29 +848,29 @@
       "url_hash": "034ad465b19a7a53a64790e6917ef46db9c917001a0b3d3ec5d3311e63874c43",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 172,
+      "playlist_response_ms": 304,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.28,
-          "bytes": 3294136
+          "download_s": 0.95,
+          "bytes": 3412764
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.197,
-          "bytes": 3301656
+          "download_s": 0.752,
+          "bytes": 3117040
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.415,
-          "bytes": 3004804
+          "download_s": 0.725,
+          "bytes": 2896892
         }
       ],
-      "max_download_ratio": 0.069,
+      "max_download_ratio": 0.158,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.57
+      "elapsed_s": 3.22
     },
     {
       "id": "GREATromance.uk",
@@ -878,29 +878,29 @@
       "url_hash": "14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 29,
+      "playlist_response_ms": 68,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.72,
-          "bytes": 3240368
+          "download_s": 0.999,
+          "bytes": 3229840
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.707,
-          "bytes": 3239240
+          "download_s": 0.993,
+          "bytes": 3174004
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.686,
-          "bytes": 3214424
+          "download_s": 1.301,
+          "bytes": 3302596
         }
       ],
-      "max_download_ratio": 0.12,
+      "max_download_ratio": 0.217,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 2.49
+      "elapsed_s": 3.72
     },
     {
       "id": "GritXtra.us",
@@ -908,29 +908,29 @@
       "url_hash": "58b2ae135f7bac7dc366d57a2e6c654243cfb02c7f2027ae1bf7c35608b9457e",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 71,
+      "playlist_response_ms": 52,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.166,
-          "bytes": 3460328
+          "download_s": 0.094,
+          "bytes": 3591364
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.21,
-          "bytes": 3543048
+          "download_s": 0.112,
+          "bytes": 3439836
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.128,
-          "bytes": 3429872
+          "download_s": 0.677,
+          "bytes": 3321584
         }
       ],
-      "max_download_ratio": 0.035,
+      "max_download_ratio": 0.113,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.08
+      "elapsed_s": 1.28
     },
     {
       "id": "HellsKitchen.us",
@@ -938,29 +938,29 @@
       "url_hash": "83bf382b7e55560e4891d1d87ac9bc41ac8f258cf8f88726b7fddaf87a2dc59f",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 135,
+      "playlist_response_ms": 297,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.095,
-          "bytes": 3302032
+          "download_s": 1.126,
+          "bytes": 3340196
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.051,
-          "bytes": 3293760
+          "download_s": 1.114,
+          "bytes": 3253152
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.769,
-          "bytes": 3289436
+          "download_s": 1.121,
+          "bytes": 3263116
         }
       ],
-      "max_download_ratio": 0.128,
+      "max_download_ratio": 0.188,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.39
+      "elapsed_s": 3.86
     },
     {
       "id": "MrBeanAnimated.uk",
@@ -968,29 +968,29 @@
       "url_hash": "5a7d14cc2ca5f368975639ad09547e41a077dd8741c20f08dbc0cf02ed93c222",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 117,
+      "playlist_response_ms": 234,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.151,
-          "bytes": 2808156
+          "download_s": 0.619,
+          "bytes": 2854028
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.167,
-          "bytes": 3091284
+          "download_s": 0.615,
+          "bytes": 2867000
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.298,
-          "bytes": 2822068
+          "download_s": 0.625,
+          "bytes": 3391520
         }
       ],
-      "max_download_ratio": 0.05,
+      "max_download_ratio": 0.104,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.0
+      "elapsed_s": 2.32
     },
     {
       "id": "TinyPop.uk",
@@ -998,29 +998,29 @@
       "url_hash": "6f8fd565e42fa72fdfa1d516f1aa82c1bd685ec5dd596d9377100292d1000423",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 52,
+      "playlist_response_ms": 70,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.888,
-          "bytes": 3265560
+          "download_s": 1.29,
+          "bytes": 3144300
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.669,
-          "bytes": 3108204
+          "download_s": 1.312,
+          "bytes": 3182276
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.882,
-          "bytes": 3442468
+          "download_s": 1.308,
+          "bytes": 3183028
         }
       ],
-      "max_download_ratio": 0.148,
+      "max_download_ratio": 0.219,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 2.81
+      "elapsed_s": 4.26
     },
     {
       "id": "ToonGoggles.us",
@@ -1028,29 +1028,29 @@
       "url_hash": "173dc37c9972e4cd7c29c5711823a229b482af4a22f00dc01726d2bb8f0f8bdc",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 122,
+      "playlist_response_ms": 186,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.175,
-          "bytes": 2125340
+          "download_s": 0.228,
+          "bytes": 2134552
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.198,
-          "bytes": 2121956
+          "download_s": 0.209,
+          "bytes": 2021376
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.207,
-          "bytes": 2139252
+          "download_s": 0.225,
+          "bytes": 2089056
         }
       ],
-      "max_download_ratio": 0.034,
+      "max_download_ratio": 0.038,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 1.15
+      "elapsed_s": 1.3
     },
     {
       "id": "WOWKidz.in",
@@ -1058,29 +1058,29 @@
       "url_hash": "a8c0e5004a2b7669331cd22d90f9cccb70f898d6a4fc35f23263a3ea777f2ac9",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 210,
+      "playlist_response_ms": 483,
       "samples": [
         {
           "duration_s": 4.0,
-          "download_s": 0.039,
-          "bytes": 1005236
+          "download_s": 1.68,
+          "bytes": 1070848
         },
         {
           "duration_s": 4.0,
-          "download_s": 0.042,
-          "bytes": 1057876
+          "download_s": 1.521,
+          "bytes": 949776
         },
         {
           "duration_s": 4.0,
-          "download_s": 0.95,
-          "bytes": 841300
+          "download_s": 1.698,
+          "bytes": 944888
         }
       ],
-      "max_download_ratio": 0.237,
+      "max_download_ratio": 0.424,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 1.66
+      "elapsed_s": 5.72
     },
     {
       "id": "BestofDanceTV.ee",
@@ -1088,29 +1088,29 @@
       "url_hash": "70ab23aab2b4e441c8aa41a3537960f125bb5d6a22561c8e4aad82fc1b3f90c9",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 740,
+      "playlist_response_ms": 957,
       "samples": [
         {
           "duration_s": 2.0,
-          "download_s": 1.503,
-          "bytes": 1124240
+          "download_s": 1.871,
+          "bytes": 1138904
         },
         {
           "duration_s": 2.0,
-          "download_s": 1.395,
-          "bytes": 1128940
+          "download_s": 1.96,
+          "bytes": 1092280
         },
         {
           "duration_s": 2.0,
-          "download_s": 1.433,
-          "bytes": 1099988
+          "download_s": 1.949,
+          "bytes": 1170676
         }
       ],
-      "max_download_ratio": 0.751,
+      "max_download_ratio": 0.98,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 6.36
+      "elapsed_s": 8.23
     },
     {
       "id": "CaliforniaMusicChannel.us",
@@ -1118,29 +1118,29 @@
       "url_hash": "5ffe5075a02f3b65a2593c9daab4d4b714e80aaaf3c7e5d2c3bd515327e908d9",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 76,
+      "playlist_response_ms": 248,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.083,
-          "bytes": 3982404
+          "download_s": 0.699,
+          "bytes": 4119080
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.056,
-          "bytes": 4017560
+          "download_s": 0.651,
+          "bytes": 4037488
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.058,
-          "bytes": 4040308
+          "download_s": 0.669,
+          "bytes": 3955332
         }
       ],
-      "max_download_ratio": 0.014,
+      "max_download_ratio": 0.116,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.63
+      "elapsed_s": 2.72
     },
     {
       "id": "Now70s.uk",
@@ -1148,29 +1148,29 @@
       "url_hash": "01ba2bc1cf5a1127f1c6de6e47e3bb31eec83f8ac891d95b5700c050b417fbbe",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 691,
+      "playlist_response_ms": 191,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 0.111,
-          "bytes": 2624856
+          "download_s": 1.296,
+          "bytes": 2544956
         },
         {
           "duration_s": 6.0,
-          "download_s": 0.033,
-          "bytes": 2453400
+          "download_s": 1.289,
+          "bytes": 2607748
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.723,
-          "bytes": 2586880
+          "download_s": 1.298,
+          "bytes": 2582368
         }
       ],
-      "max_download_ratio": 0.287,
+      "max_download_ratio": 0.216,
       "width": 1280,
       "height": 720,
       "quality": "sample_ok",
-      "elapsed_s": 3.41
+      "elapsed_s": 4.69
     },
     {
       "id": "Now80s.uk",
@@ -1178,29 +1178,29 @@
       "url_hash": "ee013d609e5ea1a3e989771d1b37f47ae374353d383a09c7055c4b9bef43ab88",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 666,
+      "playlist_response_ms": 464,
       "samples": [
         {
           "duration_s": 6.0,
-          "download_s": 1.812,
-          "bytes": 3180208
+          "download_s": 1.427,
+          "bytes": 3217056
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.897,
-          "bytes": 3261048
+          "download_s": 1.353,
+          "bytes": 3173816
         },
         {
           "duration_s": 6.0,
-          "download_s": 1.781,
-          "bytes": 2987884
+          "download_s": 0.483,
+          "bytes": 3189044
         }
       ],
-      "max_download_ratio": 0.316,
+      "max_download_ratio": 0.238,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 7.0
+      "elapsed_s": 4.38
     },
     {
       "id": "bonappetit.us",
@@ -1208,29 +1208,29 @@
       "url_hash": "a6104145d26e767d6d6b4f18f137afab7ddf8754bbeff616e409ba5e0b5c086f",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 46,
+      "playlist_response_ms": 246,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.047,
-          "bytes": 3277592
+          "download_s": 0.634,
+          "bytes": 3381556
+        },
+        {
+          "duration_s": 5.972633,
+          "download_s": 0.69,
+          "bytes": 3317072
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.09,
-          "bytes": 3277404
-        },
-        {
-          "duration_s": 6.006,
-          "download_s": 0.197,
-          "bytes": 3344708
+          "download_s": 0.659,
+          "bytes": 3204272
         }
       ],
-      "max_download_ratio": 0.033,
+      "max_download_ratio": 0.116,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.62
+      "elapsed_s": 2.46
     },
     {
       "id": "Tastemade.us",
@@ -1238,29 +1238,29 @@
       "url_hash": "dda3bf79344ca9bda74bbaba441e3f4fb0aa8fa86aecf42eedf5d59d3818dfa9",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 197,
+      "playlist_response_ms": 182,
       "samples": [
         {
-          "duration_s": 6.006,
-          "download_s": 0.441,
-          "bytes": 3215552
-        },
-        {
-          "duration_s": 6.006,
-          "download_s": 0.339,
-          "bytes": 2932988
-        },
-        {
           "duration_s": 5.973,
-          "download_s": 0.344,
-          "bytes": 3350348
+          "download_s": 0.184,
+          "bytes": 3123432
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.231,
+          "bytes": 3093916
+        },
+        {
+          "duration_s": 6.006,
+          "download_s": 0.221,
+          "bytes": 3365388
         }
       ],
-      "max_download_ratio": 0.073,
+      "max_download_ratio": 0.038,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 1.76
+      "elapsed_s": 1.29
     },
     {
       "id": "TheDesignNetwork.us",
@@ -1268,29 +1268,29 @@
       "url_hash": "44a7566b064d656f3d1190d9b94ff48bba5666bcade32d46b8c9e00c17919245",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 101,
+      "playlist_response_ms": 226,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.186,
-          "bytes": 3224388
+          "download_s": 0.626,
+          "bytes": 3155956
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.169,
-          "bytes": 3278344
+          "download_s": 0.511,
+          "bytes": 3349032
         },
         {
-          "duration_s": 6.006,
-          "download_s": 0.163,
-          "bytes": 3122116
+          "duration_s": 5.972633,
+          "download_s": 0.63,
+          "bytes": 3208784
         }
       ],
-      "max_download_ratio": 0.031,
+      "max_download_ratio": 0.105,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.91
+      "elapsed_s": 2.2
     },
     {
       "id": "NDTVGoodTimes.in",
@@ -1298,29 +1298,29 @@
       "url_hash": "6c5837d0f4f07a0cc76622640b587e85298b08445e6757f755acd67db7e07295",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 235,
+      "playlist_response_ms": 170,
       "samples": [
         {
-          "duration_s": 6.0,
-          "download_s": 2.465,
-          "bytes": 1461512
+          "duration_s": 2.0,
+          "download_s": 0.506,
+          "bytes": 1366008
         },
         {
-          "duration_s": 6.0,
-          "download_s": 2.18,
-          "bytes": 1717568
+          "duration_s": 2.0,
+          "download_s": 0.191,
+          "bytes": 1230460
         },
         {
-          "duration_s": 6.0,
-          "download_s": 2.382,
-          "bytes": 1743324
+          "duration_s": 2.0,
+          "download_s": 0.178,
+          "bytes": 1173496
         }
       ],
-      "max_download_ratio": 0.411,
+      "max_download_ratio": 0.253,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 7.74
+      "elapsed_s": 1.53
     },
     {
       "id": "AntiquesRoadTrip.us",
@@ -1328,29 +1328,29 @@
       "url_hash": "455c23b5c60da8527df5e3e51b251f3409df194752d02c77e54af87d875fb850",
       "status": "pass",
       "decoded_frames": 1,
-      "playlist_response_ms": 98,
+      "playlist_response_ms": 164,
       "samples": [
         {
           "duration_s": 6.006,
-          "download_s": 0.167,
-          "bytes": 3329480
+          "download_s": 0.582,
+          "bytes": 3419532
         },
         {
           "duration_s": 6.006,
-          "download_s": 0.174,
-          "bytes": 3248828
+          "download_s": 0.574,
+          "bytes": 3249768
         },
         {
-          "duration_s": 6.006,
-          "download_s": 0.14,
-          "bytes": 3261612
+          "duration_s": 5.972633,
+          "download_s": 0.601,
+          "bytes": 3285112
         }
       ],
-      "max_download_ratio": 0.029,
+      "max_download_ratio": 0.101,
       "width": 1920,
       "height": 1080,
       "quality": "sample_ok",
-      "elapsed_s": 0.88
+      "elapsed_s": 2.13
     }
   ]
 }
